@@ -1,0 +1,157 @@
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: url("https://cdn.wallpapersafari.com/61/70/rMqGum.gif") 
+}
+
+main{
+  margin-top: 40px;
+  display: flex:
+  flex-direction: row;
+}
+
+h1, h2, form{
+  text-align: center;
+  color: white;
+}
+
+div {
+  height: 150px;
+  width: 25%;
+}
+
+h3{
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 15px;
+}
+
+div{
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.sides{
+  display: flex;
+  flex-direction: row;
+}
+
+.leftSide{
+  width: 70%;
+  height: 900px;
+}
+
+.rightSide{
+  width: 45%;
+  height: 350px;
+  margin: 50px;
+}
+
+#firstFour, #secondFour, #lastFour{
+  display: flex;
+  height: 250px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.zodiacSign{
+  height: 150px;
+  width: 25%;
+  margin: 20px 15px;
+  border-radius: 50%;
+}
+
+#aries{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…und-with-aries-zodiac-sign_125540-1219.jpg?w=1480") no-repeat center;
+background-size: cover;  
+background-size: 250px;
+width: 80%;
+}
+
+#taurus{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…nd-with-taurus-zodiac-sign_125540-1232.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#gemini{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…nd-with-gemini-zodiac-sign_125540-1222.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#cancer{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…nd-with-cancer-zodiac-sign_125540-1220.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#leo{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…round-with-leo-zodiac-sign_125540-1223.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#virgo{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…und-with-virgo-zodiac-sign_125540-1235.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#libra{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…und-with-libra-zodiac-sign_125540-1224.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#scorpio{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…d-with-scorpio-zodiac-sign_125540-1230.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#sagittarius{
+  background: url("https://img.freepik.com/free-vector/watercolor-bac…th-sagittarius-zodiac-sign_125540-1228.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#capricorn{
+  background: url("https://img.freepik.com/free-vector/watercolor-background-with-capricorn-zodiac-sign_125540-1221.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#aquarius{
+  background: url("https://img.freepik.com/free-vector/watercolor-background-with-aquarius-zodiac-sign_125540-1218.jpg")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+#pisces{
+  background: url("https://img.freepik.com/free-vector/watercolor-background-with-pisces-zodiac-sign_125540-1226.jpg?w=1480")no-repeat center;
+background-size: cover;
+background-size: 250px;
+width: 80%;
+}
+
+.no-border {
+  border: none;
+}
