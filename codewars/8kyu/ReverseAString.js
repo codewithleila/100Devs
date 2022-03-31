@@ -19,3 +19,8 @@ function solution(str){
     return joinArray;
 }
  
+
+/* Best Practices Solution */
+function solution(str){
+  return str.split('').reverse().join('');  
+}
