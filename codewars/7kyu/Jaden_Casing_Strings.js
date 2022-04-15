@@ -28,7 +28,16 @@ String.prototype.toJadenCase = function () {
   }).join(" ");
 }
 
-// Third ssolution
+// Third solution
 String.prototype.toJadenCase = function () {
   return this.replace(/(^|\s)[a-z]/g, function(x){ return x.toUpperCase(); });
 };
+
+
+// Fourth solution
+String.prototype.toJadenCase = function() {
+  return this.split(' ').map(item => item[0].toUpperCase() + item.slice(1)).join(' ')
+};
+
+
+
